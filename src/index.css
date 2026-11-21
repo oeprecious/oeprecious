@@ -21,3 +21,17 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
 }
+
+@media only screen and (max-width: 768px) {
+  .card {
+  width: 100% !important;
+  padding: 1rem !important;
+}
+
+.hero h1 {
+  white-space: nowrap;
+}
+
+}
+
+

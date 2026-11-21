@@ -61,6 +61,6 @@ li::marker {
 
 /* Cert */
 
-span {
+.italic {
   font-style: italic;
 }

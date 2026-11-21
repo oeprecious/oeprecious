@@ -22,21 +22,21 @@ const App = () => {
                 PreciousEmmanuelO@outlook.com
               </a>
               <br />
-              Portfolio:{" "}
+              {/* Portfolio:{" "} */}
               <a href="https://oeprecious.github.io" target="_blank" rel="noopener noreferrer">
-                oeprecious.github.io
+                Portfolio
               </a>{" "}
-              • GitHub:{" "}
+              • {" "}
               <a href="https://github.com/oeprecious" target="_blank" rel="noopener noreferrer">
-                github.com/oeprecious
+                GitHub
               </a>{" "}
-              • LinkedIn:{" "}
+              • {" "}
               <a
                 href="https://www.linkedin.com/in/precious-o-emmanuel-92671142a"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                LinkedIn Profile
+                LinkedIn
               </a>
             </div>
           </section>
@@ -181,15 +181,15 @@ const App = () => {
             <ul>
 
               <li>
-                Frontend Development Certificate – PercorsoTech (<span>Hands-on training in HTML, CSS, and JavaScript</span>) | May 2026
+                Frontend Development Certificate – PercorsoTech (<span className="italic">Hands-on training in HTML, CSS, and JavaScript</span>) | May 2026
               </li>
 
               <li>
-                Ultimate Web Development Course 2026 - Build Modern Websites – Udemy (<span>Instructor: Haris Ali Khan</span>) | September 2026
+                Ultimate Web Development Course 2026 - Build Modern Websites – Udemy (<span className="italic">Instructor: Haris Ali Khan</span>) | September 2026
               </li>
 
               <li>
-                Figma UI UX Design Essentials – Udemy (<span>Instructor: Daniel Walter Scott</span>) | October 2026
+                Figma UI UX Design Essentials – Udemy (<span className="italic">Instructor: Daniel Walter Scott</span>) | October 2026
               </li>
             </ul>
           </section>
