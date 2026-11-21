@@ -83,7 +83,7 @@ const App = () => {
           {/* Project section */}
 
           <section className="projects">
-            <h3>Projects</h3>
+            <h3 style={{ textTransform: "uppercase" }}>Projects</h3>
 
             <div className="project1">
               <h4>MyNotes – Task &amp; Note Management App</h4>
@@ -167,10 +167,31 @@ const App = () => {
           <section className="education">
 
             <div className="education">
-              <h4>EDUCATION</h4>
+              <h3>EDUCATION</h3>
               Bachelor of Science in Education (B.Sc.Ed.)
               Ignatius Ajuru University of Education, Port Harcourt, Nigeria | 2021 – 2025
             </div>
+          </section>
+
+          {/* Certification */}
+
+          <section className="cert">
+            <h3>CERTIFICATIONS</h3>
+
+            <ul>
+
+              <li>
+                Frontend Development Certificate – PercorsoTech (<span>Hands-on training in HTML, CSS, and JavaScript</span>) | May 2026
+              </li>
+
+              <li>
+                Ultimate Web Development Course 2026 - Build Modern Websites – Udemy (<span>Instructor: Haris Ali Khan</span>) | September 2026
+              </li>
+
+              <li>
+                Figma UI UX Design Essentials – Udemy (<span>Instructor: Daniel Walter Scott</span>) | October 2026
+              </li>
+            </ul>
           </section>
 
 
