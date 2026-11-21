@@ -12,7 +12,7 @@ const App = () => {
   }, [])
 
   const scrollToTop = () => {
-    window.scrollTo({top: 0})
+    window.scrollTo({ top: 0 })
   }
 
   return (
@@ -64,7 +64,7 @@ const App = () => {
               <h3>PROFESSIONAL SUMMARY</h3>
 
               <div className="aboutPara">
-                Detail-oriented Junior Frontend Developer with a strong foundation in HTML5, CSS3, JavaScript (ES6+), React.js, and Figma. Experienced in translating high-fidelity UI/UX wireframes into responsive, interactive web applications with dynamic state management and local storage persistence. Proven ability to build clean, user-centered digital products from concept to deployment.
+                Detail-oriented Junior Frontend Developer with a strong foundation in HTML5, CSS3, JavaScript (ES6+) and React.js. Skilled at turning Figma designs into responsive, interactive web applications with dynamic state management and local storage persistence. Proven ability to build clean, user-friendly products and take them from concept to deployment.
               </div>
 
             </div>
@@ -79,11 +79,11 @@ const App = () => {
 
             <ul className="skillLists">
 
-              <li> Frontend Technologies: HTML5, CSS3, JavaScript (ES6+), React.js, Tailwind CSS
+              <li> Frontend Technologies: HTML5, CSS3, JavaScript (ES6+), React.js
               </li>
 
               <li>
-                UI/UX & Design: Figma
+                Design: Figma
               </li>
 
               <li>
@@ -211,7 +211,7 @@ const App = () => {
           {showTop && (
             <button className="backToTop" onClick={scrollToTop} aria-label="Back to top"> ⬆ </button>
           )}
-       
+
         </div>
       </div>
     </>
