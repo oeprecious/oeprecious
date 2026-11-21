@@ -163,7 +163,15 @@ const App = () => {
             </div>
           </section>
 
-         
+          {/* Education */}
+          <section className="education">
+
+            <div className="education">
+              <h4>EDUCATION</h4>
+              Bachelor of Science in Education (B.Sc.Ed.)
+              Ignatius Ajuru University of Education, Port Harcourt, Nigeria | 2021 – 2025
+            </div>
+          </section>
 
 
 
