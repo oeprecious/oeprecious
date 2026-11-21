@@ -209,7 +209,7 @@ const App = () => {
           </section>
 
           {showTop && (
-            <button className="backToTop" onClick={scrollToTop} aria-label="Back to top"> ↑ </button>
+            <button className="backToTop" onClick={scrollToTop} aria-label="Back to top"> ⬆ </button>
           )}
        
         </div>
