@@ -1,6 +1,20 @@
 import './App.css'
+import { useState, useEffect } from 'react'
 
 const App = () => {
+
+  const [showTop, setShowTop] = useState(false)
+
+  useEffect(() => {
+    const onScroll = () => setShowTop(window.scrollY > 300)
+    window.addEventListener("scroll", onScroll)
+    return () => window.removeEventListener("scroll", onScroll)
+  }, [])
+
+  const scrollToTop = () => {
+    window.scrollTo({top: 0})
+  }
+
   return (
 
     <>
@@ -146,7 +160,7 @@ const App = () => {
               <p>HTML5, CSS3, Vanilla JavaScript</p>
               <p>
                 Live Demo: {""}
-                <a href="https://tradingplandashboard.netlify.app/" target="_blank" rel="noopener noreferrer">https://tradingplandashboard.netlify.app//</a>
+                <a href="https://tradingplandashboard.netlify.app/" target="_blank" rel="noopener noreferrer">https://tradingplandashboard.netlify.app/</a>
               </p>
               <ul>
 
@@ -194,8 +208,10 @@ const App = () => {
             </ul>
           </section>
 
-
-
+          {showTop && (
+            <button className="backToTop" onClick={scrollToTop} aria-label="Back to top"> ↑ </button>
+          )}
+       
         </div>
       </div>
     </>
