@@ -44,3 +44,17 @@ a:hover {
     text-decoration-color: currentColor;
   }
 }
+
+/* Skills */
+
+ul {
+  margin-left: 2rem;
+}
+
+li::marker {
+  font-size: 2rem;
+}
+
+.project1, .project2, .project3, .project4 {
+  margin-bottom: 2rem;
+}
